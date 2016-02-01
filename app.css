@@ -1,0 +1,197 @@
+/* line 1, ../../app/styles/1_table.scss */
+body {
+  margin: 10px;
+}
+/* line 4, ../../app/styles/1_table.scss */
+body .outer-div {
+  width: 100%;
+  height: 500px;
+}
+/* line 8, ../../app/styles/1_table.scss */
+body .outer-div .inner-div {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+/* line 16, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .action-div {
+  width: 100%;
+  height: 10%;
+  background-color: #dddddd;
+  text-align: center;
+}
+/* line 23, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .action-div input[type='button'] {
+  position: relative;
+  top: 30%;
+}
+/* line 29, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .text-div {
+  width: 30%;
+  height: 90%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: navajowhite;
+}
+/* line 38, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .text-div #sudoku-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+/* line 49, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .text-div #sudoku-table .square-3-by-3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #000000;
+  border-collapse: collapse;
+}
+/* line 58, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .text-div #sudoku-table .square-3-by-3 td {
+  width: 60px;
+  border: 1px #000000 solid;
+  border-collapse: collapse;
+  position: relative;
+}
+/* line 67, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .text-div span {
+  position: relative;
+  top: 50px;
+}
+/* line 72, ../../app/styles/1_table.scss */
+body .outer-div .inner-div .game-div {
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* line 86, ../../app/styles/1_table.scss */
+body #congratulationsDiv {
+  position: relative;
+  top: 30px;
+  width: 50%;
+  height: 20px;
+  margin: 0 auto;
+  background-color: green;
+  text-align: center;
+  display: none;
+}
+/* line 97, ../../app/styles/1_table.scss */
+body .editTextBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: yellow;
+  font-size: 1em;
+  text-align: center;
+}
+
+/* line 1, ../../app/styles/sudoku.scss */
+body {
+  margin: 10px;
+}
+/* line 4, ../../app/styles/sudoku.scss */
+body .outer-div {
+  width: 100%;
+  height: 500px;
+}
+/* line 8, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+/* line 16, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .action-div {
+  width: 100%;
+  height: 10%;
+  background-color: #dddddd;
+  text-align: center;
+}
+/* line 22, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .action-div input[type='button'] {
+  position: relative;
+  top: 30%;
+}
+/* line 28, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .text-div {
+  width: 30%;
+  height: 90%;
+  background-color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: navajowhite;
+}
+/* line 37, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .text-div span {
+  position: relative;
+  top: 50px;
+}
+/* line 45, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .game-div {
+  width: 70%;
+  height: 90%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+/* line 52, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .game-div #sudoku-table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+/* line 58, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .game-div #sudoku-table .square-3-by-3 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #000000;
+  border-collapse: collapse;
+}
+/* line 66, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .game-div #sudoku-table .square-3-by-3 td {
+  width: 60px;
+  border: 1px #000000 solid;
+  border-collapse: collapse;
+  position: relative;
+}
+/* line 72, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div .game-div #sudoku-table .square-3-by-3 td .editTextBox {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: yellow;
+  font-size: 1em;
+  text-align: center;
+}
+/* line 89, ../../app/styles/sudoku.scss */
+body .outer-div .inner-div #congratulationsDiv {
+  position: relative;
+  top: 30px;
+  width: 50%;
+  height: 20px;
+  margin: 0 auto;
+  background-color: green;
+  text-align: center;
+  display: none;
+}
